@@ -178,26 +178,25 @@ hr {
   margin-top: 0;
   padding-top: 2rem;
 }
-
+#carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .carousel-inner{
+  width: 60%;
   display: flex;
   justify-content: center;
 }
-#carousel1 .carousel-item {
+#carousel .carousel-item {
   width: 80rem;
 }
-.carousel img {
-  padding: 0 5rem;
-}
-
 .carousel-control-prev {
-  padding-left: 15rem;
+  margin-left: 25rem;
 }
-
 .carousel-control-next {
-  padding-right: 15rem;
+  margin-right: 25rem;
 }
-
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
